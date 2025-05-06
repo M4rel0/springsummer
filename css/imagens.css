@@ -3,7 +3,7 @@
   padding-right: 10vw;
   padding-left: 23.5vw;
   display: flex;
-  gap: 2.5vw;
+  justify-content: space-between;
 }
 .displayImg img {
   width: 100%;
@@ -24,4 +24,41 @@
   z-index: 1;
   overflow: hidden;
   border: 3px solid #000;
+}
+.imgfooter {
+  width: calc(50% + 20px);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.imgfooter span {
+  font-weight: bolder;
+  font-family: Favorite, sans-serif;
+}
+
+.imgBotao {
+  display: flex;
+
+  position: relative;
+  justify-content: end;
+  align-items: center;
+  height: 28px;
+  padding: 39px 10vw 39px 23.5vw;
+  margin-top: 80px;
+}
+.imgBotao a {
+  font-size: 28.8px;
+  color: #141414;
+  width: 270px;
+}
+.imgB1 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+}
+.imgB2 {
+  position: absolute;
+  right: 214px;
+  width: 48px;
+  height: 48px;
 }
