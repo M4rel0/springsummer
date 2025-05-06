@@ -1,0 +1,43 @@
+.mainTitulo {
+  padding-top: 8vw;
+  padding-right: 10vw;
+  padding-left: 23.5vw;
+}
+.mainTitulo h1 {
+  margin: 0;
+  font-size: 14vw;
+  text-align: end;
+  letter-spacing: -25px;
+  line-height: 12.8vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.mainTitulo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.mainTituloSpring {
+  display: flex;
+  justify-content: end;
+}
+.mainVirgula {
+  margin-left: 1.8vw;
+  line-height: 12vw;
+}
+.mainTituloSummer {
+  display: flex;
+}
+.mainTituloColl {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.mainTituloColl h2 {
+  font-size: 4vw;
+  line-height: 3.5vw;
+  text-align: right;
+  letter-spacing: -0.07em;
+  font-weight: normal !important;
+  text-transform: none !important;
+  text-align: end;
+}

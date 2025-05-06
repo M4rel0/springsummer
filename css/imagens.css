@@ -1,0 +1,27 @@
+.displayImg {
+  padding-top: 2vw;
+  padding-right: 10vw;
+  padding-left: 23.5vw;
+  display: flex;
+  gap: 2.5vw;
+}
+.displayImg img {
+  width: 100%;
+  height: 100%;
+}
+.img1 {
+  width: 614px;
+  height: 872px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 3px solid #000;
+}
+.img2 {
+  width: 614px;
+  height: 872px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 3px solid #000;
+}

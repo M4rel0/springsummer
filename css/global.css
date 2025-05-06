@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  height: 149px;
+  width: 51px;
+}
+body {
+  font-family: Favorite, sans-serif;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Favorite, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
