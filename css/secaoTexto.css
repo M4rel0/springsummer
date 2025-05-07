@@ -1,0 +1,28 @@
+.containerText {
+  padding-right: 10vw;
+  padding-left: 23.5vw;
+}
+.containerText h4 {
+  display: inline-block;
+  line-height: 4.57vw;
+  font-weight: 400;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4.3vw;
+  text-wrap: nowrap;
+  letter-spacing: -0.06em;
+}
+.containerText h4:first-child {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.textEsquerda {
+  display: inline-block;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  text-decoration: underline;
+  padding-right: 320px;
+  letter-spacing: normal;
+}

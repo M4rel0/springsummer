@@ -1,0 +1,38 @@
+.faixaAmarela {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 96px;
+  background: #ddc92a;
+  border-top: 0.2vw solid #000;
+  border-bottom: 0.2vw solid #000;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 10vw;
+  margin-bottom: 7vw;
+}
+
+.slide h3 {
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  letter-spacing: -0.06em;
+  text-wrap: nowrap;
+  flex-wrap: nowrap;
+  text-transform: uppercase;
+  font-weight: 100;
+  display: inline-block;
+}
+.slide {
+  display: inline-block;
+  animation: slide-left 20s linear infinite;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
