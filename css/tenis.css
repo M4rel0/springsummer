@@ -1,0 +1,97 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.containerCarosel {
+  margin-top: 200px;
+  display: flex;
+  padding-left: 23.5vw;
+
+  height: 34vw;
+}
+.carosel {
+  display: flex;
+  gap: 40px;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+.card {
+  border: 2px solid #000;
+  height: 652px;
+  background: #e7d6c4;
+  user-select: none;
+  cursor: grab;
+  width: 518px !important;
+}
+
+.cardImg {
+  overflow: hidden;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  background: #e7d6c4;
+}
+.cardImg img {
+  padding-top: 20px;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  user-select: none !important;
+  -webkit-user-drag: none;
+
+  user-select: none;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #e7d6c4;
+}
+
+.cardText img {
+  width: 105px;
+  height: 46px;
+}
+
+.cardText span {
+  margin-bottom: 0.5vw;
+  font-size: 1.4vw;
+  line-height: 1.4vw;
+  text-align: center;
+  letter-spacing: -0.06em;
+  text-decoration: line-through;
+  padding-top: 20px;
+}
+.cardText span:first-of-type {
+  text-decoration: none;
+  margin-bottom: 0.3vw;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.08em;
+  padding-top: 15px;
+}
+
+.cardText span:last-child {
+  text-decoration: none;
+  font-size: 2.3vw;
+  line-height: 2vw;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cardText h5 {
+  font-family: "Merienda", cursive;
+  font-size: 3vw;
+  line-height: 6vw;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 120px;
+  letter-spacing: -0.1em;
+  display: inline-block;
+  transform: scaleY(2);
+}
