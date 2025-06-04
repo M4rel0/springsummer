@@ -9,7 +9,7 @@ li {
   display: flex;
   padding-left: 23.5vw;
 
-  height: 34vw;
+  height: max-content;
 }
 .carosel {
   display: flex;

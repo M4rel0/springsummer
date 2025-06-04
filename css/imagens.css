@@ -39,7 +39,6 @@
 .imgBotao {
   display: flex;
 
-  position: relative;
   justify-content: end;
   align-items: center;
   height: 28px;
@@ -51,14 +50,23 @@
   color: #141414;
   width: 270px;
 }
+.imgBotaoSeta {
+  position: relative;
+}
+.imgBotaoSeta p {
+  opacity: 0;
+}
 .imgB1 {
   position: absolute;
+  right: 1rem;
+  top: -1.4rem;
   width: 96px;
   height: 96px;
 }
 .imgB2 {
+  right: 2.3rem;
+  top: 0rem;
   position: absolute;
-  right: 214px;
   width: 48px;
   height: 48px;
 }
